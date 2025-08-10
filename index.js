@@ -41,7 +41,7 @@ async function startBot() {
 
     // Generar código de 6 dígitos
     setTimeout(async () => {
-        let code = await sock.requestPairingCode("5492915268762); // <---- PON AQUÍ TU NÚMERO CON CÓDIGO DE PAÍS SIN +
+        let code = await sock.requestPairingCode("5492915268762"); // <---- PON AQUÍ TU NÚMERO CON CÓDIGO DE PAÍS SIN +
         console.log(`📌 Código de emparejamiento: ${code}`);
     }, 3000);
 
